@@ -1,0 +1,27 @@
+{% extends 'dummay.html' %}
+{% block title %}
+    <title>Forgot_password</title>
+{% endblock %}
+<body>
+    {% block body_block %}
+    <center>
+        <h1 >Forgot_password</h1>
+        <form action="" method="POST" id="F">
+            {% csrf_token %}
+            <label for="un">UserName:</label>
+            <input type="text" name="un" id="un"><br><br>
+    
+            <label for="ps">Password:</label>
+            <input type="password" name="ps" id="ps"><br><br>
+    
+    
+    
+            <input type="submit" value="Forgot_password">
+            
+    
+    
+        </form>
+        </form>
+    </center>
+    {% endblock %}
+</body>

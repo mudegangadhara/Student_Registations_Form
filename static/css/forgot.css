@@ -1,0 +1,10 @@
+#F{
+    background: url(https://cdn.pixabay.com/photo/2014/04/14/20/11/pink-324175_1280.jpg);
+    height: 600px;
+    padding-top: 150px;
+}
+h1{
+    background: linear-gradient(75deg,violet,lightgreen);
+    height: 55px;
+    padding-top: 2px;
+}

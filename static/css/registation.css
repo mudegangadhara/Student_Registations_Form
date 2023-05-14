@@ -1,0 +1,14 @@
+#r{
+    background: url(https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_1280.jpg);
+    height: 600px;
+    width: fit-content;
+
+    padding-top: 60px;
+}
+#D{
+    color: black;
+    
+    position: relative;
+    top: 5px;
+   
+}
